@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITT Life</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="membership.html">MEMBERSHIP</a></li>
+                    <li><a href="blog.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1 style="display:inline;">FITT</h1><h2 style="display:inline;">LIFE</h2>
+    <p>Aim with Purpose, Act with Determination, Achieve Greatness</p>
+    <a href="membership.html" class="hero-btn">Join Now</a>
+</div>        
+  </section>
+<!--Description-->
+<section class="description">
+    <h1>About</h1>
+    <p>Welcome to FittLife - the ultimate destination for fitness enthusiasts of all levels.<br>Whether you're just starting or pushing towards ne goals, we provide the tools,<br>expertise, and motivation to help you succeed.</p>
+</section>
+<!--Campus-->
+<section class="campus">
+    <h1>Our Locations</h1>
+    <p>TO BE IMPLEMENTED</p>
+</section>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1967.008428338031!2d123.11614103615284!3d9.593814949825399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ab81c4591dcbd5%3A0xc613f4b08aebf744!2sBais%20City%20National%20Science%20High%20School!5e0!3m2!1sen!2sph!4v1741620538392!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<!--Facilities-->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Engage on exiting workout with our state of the art machines.</p>
+    <img src="images/cta.jpg">
+</section>
+<!--Call to action-->
+<section class="cta">
+    <h1>Need More Information?</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+<!--Footer-->
+<section class="footer">
+    <h4>¯\_(ツ)_/¯</h4>
+    <p>I think you should go back up</p>
+    <div class="icons">
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class='bx bxl-youtube'></i></a>
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class='bx bxl-discord-alt'></i></a>
+    </div>
+</section>
+<!--JavaScript-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
