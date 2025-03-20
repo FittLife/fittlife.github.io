@@ -416,11 +416,13 @@ h3{
     font-size: 25px;
     background-color: transparent;
 }
-.galim img{
-    width: 80px;
-    border-radius: 50px;
+.galim{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
     background-color: transparent;
+}
+.galim img{
+    width: 80px;
+    border-radius: 50px;
 }
